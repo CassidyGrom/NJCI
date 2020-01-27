@@ -364,6 +364,62 @@ footer a {
 
 }
 
+/* GRID */
+.gItem {
+  border: 1px solid #f4f4f4;
+  background-color: #fff;
+  text-align: center;
+  padding: 1%;
+}
+
+.gImg {
+  width: 240px;
+  height: 110px;
+}
+
+.gImg2 {
+  width: 240px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.gImg3 {
+  width: 240px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.gImg4 {
+  width: auto;
+  height: 110px;
+  margin-left: 70px;
+  margin-right: 71px;
+}
+
+.gImg5 {
+  width: auto;
+  height: 110px;
+  margin-left:36.5px;
+  margin-right:36.5px;
+}
+
+.gImgBox {
+  width: 260;
+  height: 130px;
+}
+
+@media screen and (min-width: 1025px) {
+  /* .gItem {
+    width: 300px;
+  } */
+}
+
+@media screen and (min-width: 768px) {
+  /* .gItem {
+    width: 200px;
+  } */
+}
+
 @media only screen and (max-width: 1200px) {
   .desktopWhoSubscribes {
     display: none;
