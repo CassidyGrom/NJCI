@@ -19,13 +19,13 @@ h6 {
 }
 
 h1 {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", "arial";
   font-size: 15rem;
   line-height: 10rem;
 }
 
 h1::first-line {
-  font-family: "Staatliches", cursive;
+  font-family: "Staatliches", "arial";
   font-size: 8rem;
   padding-bottom: 0;
   margin-bottom: 0;
