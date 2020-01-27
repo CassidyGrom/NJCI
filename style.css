@@ -223,7 +223,7 @@ footer a {
 
 
 
-*/ .featurette-image {
+.featurette-image {
   border-radius: 7%;
   margin-bottom: 3vh;
 }
@@ -252,10 +252,14 @@ footer a {
   margin-right: auto;
 }
 
-.card-text,
+.card-text {
+  font-size: .8rem;
+  line-height: 120%;
+}
+
 i {
   font-size: .8rem;
-  line-height: .9rem;
+  line-height: 120%;
 }
 
 
