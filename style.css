@@ -312,6 +312,15 @@ i {
   border: white solid 4px;
 }
 
+.rounded-circle-mobile-two {
+  border-radius: 50% !important;
+  width: 30vw;
+  height: auto;
+  max-width: 75px;
+  max-height: 75px;
+  border: white solid 4px;
+}
+
 /** logo-container**/
 .logo-container {
   background-color: white;
