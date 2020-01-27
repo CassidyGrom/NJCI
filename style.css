@@ -257,9 +257,10 @@ footer a {
   line-height: 120%;
 }
 
-i {
+.personTitle {
   font-size: .8rem;
   line-height: 120%;
+  font-style: italic;
 }
 
 
