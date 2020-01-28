@@ -72,6 +72,8 @@ footer a {
   color: white;
 }
 
+
+
 .contianer,
 .container-fluid {
   margin: 0 0;
@@ -170,15 +172,6 @@ footer a {
   color: white;
 }
 
-/* .teamTextTitle {
-  position: absolute;
-  right: 15%;
-  top: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-} */
 
 .btn-weed {
   background-color: none;
@@ -326,37 +319,7 @@ footer a {
 }
 
 /* MOBILE and tablet*/
-@media only screen and (max-width: 900px) {
-  h1 {
-    font-family: "Staatliches", cursive;
-    font-size: 3rem;
-    line-height: 2.5rem;
-    margin-top: 0;
-  }
 
-  h1::first-line {
-    font-family: "Staatliches", cursive;
-    font-size: 1.5rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  /* h2 {
-    font-family: "Staatliches", cursive;
-    font-size: 1.5rem;
-
-    margin-top: 0;
-  } */
-
-  .container-team {
-    display: none;
-  }
-
-  .desktopWhoSubscribes {
-    display: none;
-  }
-
-}
 
 /* GRID */
 .gItem {
@@ -419,21 +382,44 @@ footer a {
 
 
 
-@media screen and (min-width: 1025px) {
-  /* .gItem {
-    width: 300px;
-  } */
+@media only screen and (max-width: 900px) {
+
+  .container-team {
+    display: none;
+  }
+
+  .desktopWhoSubscribes {
+    display: none;
+  }
+
 }
 
-@media screen and (min-width: 768px) {
-  /* .gItem {
-    width: 200px;
-  } */
-}
 
 @media only screen and (max-width: 1200px) {
   .desktopWhoSubscribes {
     display: none;
+  }
+
+  h1 {
+    font-size: 10rem;
+    line-height: 7rem;
+  }
+
+  h1::first-line {
+    font-family: "Staatliches", "arial";
+    font-size: 5.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+    padding-right: 2rem;
+  }
+
+  .btn-weed {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
 }
