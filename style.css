@@ -395,21 +395,6 @@ footer a {
   height: 130px;
 }
 
-@media only screen and (max-width: 900px) {
-  .container-team {
-    display: none;
-  }
-
-  .desktopWhoSubscribes {
-    display: none;
-  }
-
-  .carousel-item.img {
-    min-height: 400px;
-    object-fit: cover;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .desktopWhoSubscribes {
     display: none;
@@ -435,8 +420,62 @@ footer a {
   .btn-weed {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    background-color: #44592e;
+    width: 220px;
   }
   .carousel-caption {
+    text-align: center;
+  }
+}
+/*current*/
+@media only screen and (max-width: 900px) {
+  .container-team {
+    display: none;
+  }
+
+  .desktopWhoSubscribes {
+    display: none;
+  }
+
+  .carousel-item.img {
+    min-height: 400px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 7rem;
+    line-height: 4.7rem;
+  }
+
+  h1::first-line {
+    font-family: "Staatliches", "arial";
+    font-size: 3.7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .btn-weed {
+    margin-top: 0px;
+    margin-bottom: 0.3rem;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 200px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
     text-align: center;
   }
 }
