@@ -259,7 +259,7 @@ footer a {
 .cardTopBlock {
   height: 100%;
   background-color: white;
-  /* background-image: linear-gradient(white, #44592e); */
+  background-image: linear-gradient(white, #44592e);
   background: -moz-linear-gradient(top,
       #ffffff 0%,
       #ffffff 50%,
@@ -295,9 +295,9 @@ footer a {
 }
 
 .card-img-top {
-  /* height: 50%; */
+  height: 50%;
   width: 50%;
-  /* margin: 1.5vh auto 0; */
+    margin-left: 5vw;
 }
 
 /* Grid images */
