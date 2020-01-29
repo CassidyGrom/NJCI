@@ -61,15 +61,15 @@ body {
 }
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: #f4f4f4;
   height: 6.5rem;
   padding-left: 1rem;
   padding-top: 1rem;
 }
 
 footer a {
-  color: white;
+  color: black;
+  font-size: .8rem;
 }
 
 #cannabisLogo {
