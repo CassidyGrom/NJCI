@@ -88,9 +88,9 @@ ul {
   margin: 0 0;
 }
 
-.navbar {
+/* .navbar {
   height: 75px;
-}
+}*/
 
 .navbar-light .navbar-nav .nav-link {
   padding-top: 40px;
@@ -453,9 +453,9 @@ ul {
     padding-left: 0px;
   }
 
-  .navbar-brand {
+  /* .navbar-brand {
     width: 50%;
-  }
+  } */
 
   #cannabisLogo {
     content: url("assets/images/cannabis-insider-logo-mobile.png");
@@ -465,9 +465,9 @@ ul {
 }
 
 @media only screen and (max-width: 1000px) {
-  .navbar {
+  /* .navbar {
     padding-bottom: 6rem;
-  }
+  } */
 }
 
 /*current*/
@@ -528,9 +528,9 @@ ul {
     height: 100%;
   }
 
-  .navbar {
+  /* .navbar {
     padding-bottom: auto;
-  }
+  } */
 
   #slides2 {
     min-height: 400px;
@@ -560,12 +560,20 @@ ul {
     padding: 0px;
     height: 130px;
   }
+
+  #cannabisLogo {
+    content: url("assets/images/xs-cannabis-insider-logo-mobile.png");
+  }
 }
 
 @media only screen and (max-width: 600px) {
   ul {
     margin-left: 0px;
   }
+
+  /* .navbar {
+    padding-bottom: 0px;
+  } */
 }
 
 /**bigger then mobile and tablet**/
