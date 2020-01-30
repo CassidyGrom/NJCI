@@ -73,7 +73,7 @@ footer a {
 }
 
 ul {
-  margin-left: 10rem;
+  margin-left: 25%;
 }
 
 #cannabisLogo {
@@ -301,7 +301,8 @@ ul {
 .card-img-top {
   height: 50%;
   width: 50%;
-  margin-left: 5vw;
+  margin-left: 25%;
+
 }
 
 /* Grid images */
@@ -530,6 +531,10 @@ ul {
   .navbar {
     padding-bottom: auto;
   }
+
+  #slides2 {
+    min-height: 400px;
+  }
 }
 
 /* current*/
@@ -555,20 +560,12 @@ ul {
     padding: 0px;
     height: 130px;
   }
+}
 
-  /* .gItem {
-    border: 1px solid #f4f4f4;
-    background-color: #fff;
-    text-align: center;
-    line-height: 110px;
-    height: initial;
+@media only screen and (max-width: 600px) {
+  ul {
+    margin-left: 0px;
   }
-
-  .gImg6 {
-    width: auto;
-    height: 110px;
-    margin: 0 1.65rem;
-  } */
 }
 
 /**bigger then mobile and tablet**/
