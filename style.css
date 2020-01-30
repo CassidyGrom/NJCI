@@ -72,6 +72,10 @@ footer a {
   font-size: .8rem;
 }
 
+ul {
+  margin-left: 10rem;
+}
+
 #cannabisLogo {
   content: url("assets/images/logos/nj-cannabis-transparent.png");
   width: 70%;
@@ -245,10 +249,10 @@ footer a {
   margin-right: auto;
 }
 
-.card-text {
+/* .card-text {
   font-size: 0.8rem;
   line-height: 120%;
-}
+} */
 
 .personTitle {
   font-size: 0.8rem;
@@ -297,7 +301,7 @@ footer a {
 .card-img-top {
   height: 50%;
   width: 50%;
-    margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 /* Grid images */
