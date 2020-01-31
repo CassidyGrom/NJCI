@@ -219,6 +219,7 @@ ul {
   color: white;
   box-sizing: border-box;
 }
+
 /* 
 #sticky2 {
   right: 90vw;
@@ -525,6 +526,12 @@ ul {
   #slides2 {
     min-height: 400px;
   }
+
+  .navbar-brand {
+    margin-right: 0rem;
+  }
+
+
 }
 
 @media only screen and (max-width: 600px) {
