@@ -576,4 +576,12 @@ ul {
   .mobileWhoSubscribes {
     display: none;
   }
+
+  ul {
+    margin-left: 40%;
+  }
+
+  .RecCard {
+    margin-right: 50%;
+  }
 }
