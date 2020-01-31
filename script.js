@@ -1,15 +1,30 @@
-//Get the button
-var mybutton = document.getElementById("sticky2");
+// var mybutton = document.getElementById("btnTest");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {
-  scrollFunction();
-};
+// mybutton.style.color = "green";
 
-function scrollFunction() {
-  if (document.body.scrollTop > 400) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+// window.onscroll = function() {
+//   scrollFunction();
+// };
+
+// function scrollFunction() {
+//   if (
+//     document.body.scrollTop > 2000 ||
+//     document.documentElement.scrollTop > 2000
+//   ) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
+
+// window.onscroll = function() {
+//   scrollFunction();
+// };
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+//     mybutton.style.display = "block";
+//   } else {
+//     mybutton.style.display = "none";
+//   }
+// }
