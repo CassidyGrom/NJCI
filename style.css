@@ -97,7 +97,17 @@ ul {
   background-color: #555;
 }
 
-
+.subscriptionBar {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  z-index: 100;
+}
 
 .contianer,
 .container-fluid {
@@ -431,6 +441,18 @@ ul {
 
   #myBtn {
     display: none !important;
+  }
+
+  .subscriptionBar {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    z-index: 100;
   }
 
   .griddyDesktop {
