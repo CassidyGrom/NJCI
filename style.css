@@ -98,7 +98,6 @@ ul {
 }
 
 #subscriptionBar {
-  display: none;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -444,7 +443,6 @@ ul {
   }
 
   #subscriptionBar {
-    display: block;
     position: fixed;
     left: 0;
     bottom: 0;
