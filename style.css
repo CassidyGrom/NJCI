@@ -475,6 +475,11 @@ ul {
     padding-right: 2rem;
   }
 
+  .fIcon {
+    width: 100%;
+    height: 100%;
+  }
+
   .btn-weed {
     margin-top: 2rem;
     margin-bottom: 1rem;
