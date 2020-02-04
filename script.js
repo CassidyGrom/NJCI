@@ -1,7 +1,7 @@
 //Get the button
 var mybutton = document.getElementById("myBtn");
 var mobileBarEl = document.getElementById("subscriptionBar");
-mobileBarEl.style.color = "purple";
+// mobileBarEl.style.color = "purple";
 
 var x = window.matchMedia("(max-width:1200px)");
 
@@ -10,9 +10,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (
-    document.documentElement.scrollTop > 500
-  ) {
+  if (document.documentElement.scrollTop > 500) {
     mybutton.style.display = "block";
     // mobileBarEl.style.display = "block";
   } else {

@@ -45,7 +45,6 @@ h4 {
   padding-right: 2rem;
 }
 
-
 body {
   width: 100%;
   height: 100%;
@@ -59,12 +58,12 @@ footer {
   background-color: #f4f4f4;
   height: 6.5rem;
   padding-left: 1rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 footer a {
   color: black;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 ul {
@@ -97,7 +96,7 @@ ul {
   background-color: #555;
 }
 
-#subscriptionBar {
+/* #subscriptionBar {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -106,14 +105,12 @@ ul {
   color: white;
   text-align: center;
   z-index: 100;
-}
+} */
 
 .contianer,
 .container-fluid {
   margin: 0 0;
 }
-
-
 
 .navbar-light .navbar-nav .nav-link {
   padding-top: 40px;
@@ -161,7 +158,6 @@ ul {
 
   width: 100%;
   background-size: cover;
-
 }
 
 .full {
@@ -221,7 +217,7 @@ ul {
 }
 
 .btn-footer {
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding-top: 1rem;
   /* padding-bottom: 1rem; */
 }
@@ -231,8 +227,6 @@ ul {
   text-decoration: underline;
 }
 
-
-
 .whatSection {
   background-color: #595959;
 }
@@ -240,7 +234,6 @@ ul {
 .btn-secondary {
   line-height: 0.9rem;
 }
-
 
 .featurette-image {
   border-radius: 7%;
@@ -271,8 +264,6 @@ ul {
   margin-right: auto;
 }
 
-
-
 .personTitle {
   font-size: 0.8rem;
   line-height: 120%;
@@ -283,22 +274,28 @@ ul {
   height: 100%;
   background-color: white;
   background-image: linear-gradient(white, #44592e);
-  background: -moz-linear-gradient(top,
-      #ffffff 0%,
-      #ffffff 50%,
-      #44592e 51%,
-      #44592e 100%);
-  background: -webkit-linear-gradient(top,
-      #ffffff 0%,
-      #ffffff 50%,
-      #44592e 51%,
-      #44592e 100%);
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #ffffff 50%,
+    #44592e 51%,
+    #44592e 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #ffffff 50%,
+    #44592e 51%,
+    #44592e 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,
-      #ffffff 0%,
-      #ffffff 50%,
-      #44592e 51%,
-      #44592e 100%);
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 50%,
+    #44592e 51%,
+    #44592e 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
@@ -321,7 +318,6 @@ ul {
   height: 50%;
   width: 50%;
   margin-left: 25%;
-
 }
 
 /* Grid images */
@@ -358,8 +354,6 @@ ul {
 .logo-container {
   background-color: white;
 }
-
-
 
 /* GRID */
 .gItem {
@@ -424,10 +418,7 @@ ul {
   display: none;
 }
 
-
-
 @media only screen and (max-width: 1200px) {
-
   html,
   body {
     width: 100%;
@@ -443,7 +434,7 @@ ul {
   }
 
   #subscriptionBar {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -451,7 +442,8 @@ ul {
     color: white;
     text-align: center;
     z-index: 100;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .griddyDesktop {
@@ -499,15 +491,12 @@ ul {
     padding-left: 0px;
   }
 
-
-
   #cannabisLogo {
     content: url("assets/images/cannabis-insider-logo-mobile.png");
     width: 70%;
     height: 70%;
   }
 }
-
 
 /*current*/
 @media only screen and (max-width: 900px) {
@@ -574,7 +563,6 @@ ul {
   .navbar-brand {
     margin-right: 0rem;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -588,7 +576,6 @@ ul {
     height: 100%; */
     max-width: 200px;
   }
-
 }
 
 /* current*/
@@ -614,11 +601,7 @@ ul {
     padding: 0px;
     height: 130px;
   }
-
-
 }
-
-
 
 /**bigger then mobile and tablet**/
 @media only screen and (min-width: 900px) {
@@ -645,5 +628,4 @@ ul {
   .RecCard {
     margin-right: 50%;
   }
-
 }
