@@ -502,7 +502,90 @@ ul {
     height: 70%;
   }
 }
+/*MODAL CSS*/
 
+.modal-2 {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  /* font-size: 5rem;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 1rem; */
+}
+
+.modal-1 {
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  /* font-size: 4rem;
+  padding-bottom: 0px;
+  padding-top: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+}
+
+.modal-3 {
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  /* font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0px; */
+  background-color: white;
+  color: black;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+
+.modal-4 {
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 3rem;
+  margin-top: 3rem; */
+}
+
+.modal-content {
+  border: solid #4c7002 8px;
+  color: white;
+  font-family: raleway, sans-serif;
+}
+
+.modal-body {
+  background-image: url("assets/images/darkerWeedGrid4.jpg");
+  object-position: center top;
+  object-position: 100px 50px;
+  /* padding: 3rem; */
+}
+
+.modal-header {
+  background-color: #4c7002;
+  border: none;
+}
+
+.modal-footer {
+  border-top: none;
+  text-align: center;
+  /* margin-top: 2rem; */
+}
+
+.close {
+  color: white;
+  z-index: 10;
+  /* font-size: 40px; */
+}
+
+.modal-title {
+  /* font-size: 3rem; */
+}
+
+.modal-btn {
+  background-color: #4c7002;
+  color: white;
+}
+
+/*MODAL CSS END*/
 /*current*/
 @media only screen and (max-width: 900px) {
   .container-team {

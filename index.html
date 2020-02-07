@@ -39,7 +39,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
+    <!--  Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- raleway -->
+     <link rel="stylesheet" href="https://use.typekit.net/gjc8aon.css" />
     <!-- lato stylesheet -->
     <link rel="stylesheet" href="https://use.typekit.net/hwq6eqf.css" />
     <!-- header stylesheet -->
@@ -50,7 +53,7 @@
     <!-- my style sheet -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <!--  new button styles -->
+    
   </head>
  
   <body>
@@ -754,6 +757,53 @@
         >
       </p>
     </footer>
+
+    <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <p class=" col-12 text-center modal-title">
+                Tickets on sale now!
+              </p>
+            </div>
+            <div class="modal-body col-12 text-center">
+              <img
+                src="assets/images/NJCI-Live-logo-HOR.png"
+                style="width:30%; padding:0px auto"
+              />
+              <p class="modal-1">N.J.'s Premier</p>
+              <p class="modal-2">Cannabis Conference</p>
+              <p class="modal-3">— the road to legalization —</p>
+              <p class="modal-4">March 10, 2020</p>
+              <div class="modal-footer text-center">
+                <a
+                  href="https://njcannabisinsider.nj.com/wp/conferences/"
+                  target="_blank"
+                  role="button"
+                  class="btn-lg modal-btn btn-default"
+                >
+                  Learn More >>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal end -->
+     <!-- modal script start -->
+    <script>
+      $(document).ready(function() {
+        $("#myModal").modal();
+        console.log("does this work!?");
+      });
+    </script>
+    <!-- modal script start -->
 
     <!-- button script -->
     <!-- My JS -->
